@@ -1,0 +1,144 @@
+/* Reset some default styles */
+body, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    padding-bottom: 2px;
+}
+
+h1 {
+    font-size: 70px;
+    margin-top: 10px;
+    font-family: monospace;
+}
+
+h2 {
+    font-size: 22px;
+    padding-bottom: 30px;
+    margin-top: 25px;
+    text-align:justify;
+    float: left;
+    font-family:monospace;
+    font-style: italic;
+    color:#333;
+    
+    
+}
+
+h3 { font-size: 30px;
+    font-family: monospace;
+    margin-top: 5px;
+
+}
+
+
+/* Style the main container */
+#main-container {
+    margin: 20px auto;
+    height: 915px;
+    width: 1450px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display:flex;
+    flex-direction:column;
+    float: right;
+}
+
+
+header > * {
+    margin-bottom: 20px;
+}
+
+
+#sidebar {
+
+    margin: 20px auto;
+    height: 915px;
+    width: 490px;
+    padding: 10px;
+    text-align: left;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display:flex;
+    flex-direction:column;
+    float: left;
+
+}
+
+#ColDropdown {
+  font-size: 15px;
+  padding: 5px;
+  height: 50px;
+  width: 490px;
+  align-items: center;
+  border: 3px solid #333;
+  border-radius: 4px;
+  background-color:white;
+  color:#333;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+/* Style the slider containers for specific sliders */
+#bgColorSlider, #moleSizeSlider, #GameSpeedSLider {
+    margin-top: 10px;
+    background-color: #eee; /* Change the background color */
+    border-radius: 10px; /* Add rounded corners */
+    padding: 10px; /* Add padding */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a shadow */
+}
+
+
+#chid {
+
+font-size: 33px;
+font-style: bold;
+font-family: monospace;
+padding-bottom: px;
+text-align: center;
+font-weight: bold;
+}
+
+
+ #msid, #gsid, #mcid {
+
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 60px;
+    font-weight: bold;
+   
+}
+
+#bcid {
+
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+   
+}
